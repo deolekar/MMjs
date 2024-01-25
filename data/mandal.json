@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-08-08T19:03:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "la Bottega del caffe'"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.011191606521606,
+          52.22967230398941
+        ]
+      }
+    }
+  ]
+}

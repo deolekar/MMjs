@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-08-08T19:03:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Business",
+        "name": "Poha shop",
+        "instagram": "https://www.instagram.com/samrat_scotland/",
+        "facebook": "https://www.instagram.com/samrat_scotland/",
+        "website": "https://www.instagram.com/samrat_scotland/",
+        "image": "https://grzegorztomicki.pl/images/lwow/576/IMG_0202.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.0106498003006,
+          22.629951587106186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Business",
+        "name": "Chai shop",
+        "instagram": "https://www.instagram.com/samrat_scotland/",
+        "facebook": "https://www.instagram.com/samrat_scotland/",
+        "website": "https://www.instagram.com/samrat_scotland/",
+        "image": "https://grzegorztomicki.pl/images/lwow/576/IMG_0202.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0106498003006,
+          22.629951587106186
+        ]
+      }
+    }
+  ]
+}

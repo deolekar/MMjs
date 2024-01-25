@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Mandal</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="icon" href="/images/favicon.ico" />
+  </head>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="nav-placeholder"></div>
+        <script>
+          $(function () {
+            $("#nav-placeholder").load("nav.html");
+          });
+        </script>
+      </nav>
+    </header>
+    <div class="containerf image-controls">
+      <ul class="layers"></ul>
+      <div id="map"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

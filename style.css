@@ -1,0 +1,240 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f1f1f1;
+}
+
+ul {
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.containerf {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  padding: 5px;
+}
+.container {
+  height: 10%;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.layers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.leaflet-marker-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  color: #fff;
+  font-size: 11px;
+  line-height: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 132, 255, 1);
+  border-radius: 100%;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.search-tip b {
+  color: #fff;
+}
+
+.bar,
+.bar.search-tip b,
+.bar.leaflet-marker-icon {
+  background: #be4dff;
+}
+
+.pharmacy,
+.pharmacy.search-tip b,
+.pharmacy.leaflet-marker-icon {
+  background: #ff8146;
+}
+
+.restaurant,
+.restaurant.search-tip b,
+.restaurant.leaflet-marker-icon {
+  background: #ff3939;
+}
+
+/* checkbox */
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #555555;
+  background-clip: content-box;
+  padding: 3px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #525252;
+}
+
+.layer-element > span {
+  border: 1px soslid red;
+}
+
+
+.leaflet-interactive {
+  stroke: #cc5500;
+  fill: #cc5500;
+}
+
+@media (min-width: 400px) {
+  .marker-click {
+    margin: 5px 10px;
+  }
+}
+
+.marker-click {
+  text-decoration: none;
+  color: red;
+}
+
+.search-tip {
+  white-space: nowrap;
+}
+
+.search-tip b {
+  display: inline-block;
+  padding: 0 4px;
+  margin-left: 4px;
+}
+
+.place {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.place-item {
+  color: #fff;
+  padding: 5px;
+  font-size: 70%;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.legend {
+  background: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.legend .row {
+  display: flex;
+  line-height: 30px;
+}
+
+.legend i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+
+.headr {
+  margin-top:15px;
+  float: left;
+  display: inline-flex;
+  padding: 10px;
+  color: #ff6600;
+}
+
+.grad{
+  background: linear-gradient(to right, #ff6600, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social {
+  float: right;
+  display: inline-flex;
+  justify-content:right;
+  padding: 8px 1px;
+}
+
+.pad {
+  padding: 10px ;
+  font-size: large;
+}
+
+#footer {
+  position: fixed;
+  bottom: 20;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+ft {
+  color: rgb(160, 160, 160);
+  font-family: Consolas, Arial;
+  text-decoration: none;
+  text-align: right;
+  margin: 1px auto 0;
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-right: 10px;
+}
