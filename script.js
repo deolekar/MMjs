@@ -9,10 +9,10 @@ let config = {
   maxZoom: 12,
 };
 // magnification with which the map will start
-const zoom = 2;
+const zoom = 3;
 // co-ordinates
 const lat = 22.918904;
-const lng = 75.1343786;
+const lng = 10.1343786;
 
 // calling map
 const map = L.map("map", config).setView([lat, lng], zoom);
@@ -64,26 +64,26 @@ function clickZoom(e) {
 
 let geojsonOpts = {
   pointToLayer: function (feature, latlng) {
-    if (feature.properties.image === undefined) {
+    if (feature.properties.image === undefined || feature.properties.image === "") {
       feature.properties.image =
         "images/no_img.png";
     }
 
-    if (feature.properties.instagram === undefined) {
+    if (feature.properties.instagram === undefined || feature.properties.instagram === "") {
       tooltipIG = "<a> </a>"
     } else {
       tooltipIG = "<a href=" + feature.properties.instagram + " target='_blank'>Instagram </a>"
       console.log(tooltipIG)
     }
 
-    if (feature.properties.facebook === undefined) {
+    if (feature.properties.facebook === undefined || feature.properties.facebook === "") {
       tooltipFB = "<a> </a>"
     } else {
       tooltipFB = "<a href=" + feature.properties.facebook + " target='_blank'>Facebook </a>"
       console.log(tooltipFB)
     }
 
-    if (feature.properties.website === undefined) {
+    if (feature.properties.website === undefined || feature.properties.website === "") {
       tooltipWEB = "<a> </a>"
     } else {
       tooltipWEB = "<a href=" + feature.properties.website + " target='_blank'>Website </a>"

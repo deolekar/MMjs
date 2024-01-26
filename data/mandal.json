@@ -8,13 +8,323 @@
       "type": "Feature",
       "properties": {
         "amenity": "Mandal",
-        "name": "la Bottega del caffe'"
+        "name": "Samrat",
+        "instagram": "https://www.instagram.com/samrat_scotland/",
+        "facebook": "https://www.facebook.com/MarathiMitraMandalEdinburgh/",
+        "website": "https://www.samrat.org.uk/",
+        "image": "https://www.samrat.org.uk/gallery_gen/ac3edf97044acaa96a464b2a3f0862c1_202x196_fit.png"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.011191606521606,
-          52.22967230398941
+          -3.188267,
+          55.953251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "MMS",
+        "instagram": "https://www.instagram.com/mmsuk_official/",
+        "facebook": "",
+        "website": "https://www.mauritianmarathisociety.co.uk",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.497771221022234,
+          -20.156812449041073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Mauritius Mitra Mandal",
+        "instagram": "https://www.instagram.com/_mi.marathi.mauritius_/",
+        "facebook": "",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.492449642309836,
+          -20.298624259336016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Dallas Fort Worth Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/dfwmmtx/",
+        "facebook": "https://www.facebook.com/dfwmandal",
+        "website": "https://dfwmm.org/",
+        "image": "https://dfwmm.org/sites/default/files/dfwmm-logo-latest_1_1.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.040443,
+          32.897480
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Czech Republic",
+        "instagram": "https://www.instagram.com/maharashtramandalczechrepublic",
+        "facebook": "",
+        "website": "",
+        "image": "images/mandal/maharashtramandalczechrepublic.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.430946692523047,
+          50.07727002337630
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Malaysia",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_malaysia/",
+        "facebook": "https://www.facebook.com/MaharashtraMandalMY/",
+        "website": "https://mmmalaysia.org/",
+        "image": "https://mmmalaysia.org/wp-content/uploads/2022/01/logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.67668494586192,
+          3.1525576857380506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Kampala",
+        "instagram": "https://www.instagram.com/maharshtramandaluganda/",
+        "facebook": "https://www.facebook.com/MaharashtraMandalKampala/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.568908170150266,
+          0.3161188844259739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Auckland Marathi Association",
+        "instagram": "https://www.instagram.com/aklmarathi/",
+        "facebook": "https://www.facebook.com/aklmarathi",
+        "website": "https://www.amai.org.nz/",
+        "image": "https://www.amai.org.nz/wp-content/uploads/2020/12/cropped-logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.73489823467742,
+          -36.848367064715234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Qatar",
+        "instagram": "https://www.instagram.com/maharashtramandalqatar/",
+        "facebook": "",
+        "website": "www.mmqatar.com",
+        "image": "https://mmqatar.com/wp-content/uploads/2020/02/cropped-cropped-mmq-logo-1.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.51572100720282,
+          25.24271679270131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Finland",
+        "instagram": "https://www.instagram.com/maharashtramandalfinland/",
+        "facebook": "https://www.facebook.com/mmfinland12/",
+        "website": "https://mmfinland.com/",
+        "image": "https://mmfinland.com/assets/images/output-onlinejpgtools-98x112.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.798588716641337,
+          60.24509826512236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Belgium Marathi Mandal ",
+        "instagram": "https://www.instagram.com/belgiummarathimandal",
+        "facebook": "https://www.facebook.com/BRUSSELSMARATHIMANDAL",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35466354857102,
+          50.8497411308377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Tokyo Marathi Mandal",
+        "instagram": "https://www.instagram.com/tokyo.marathi.mandal/",
+        "facebook": "https://www.facebook.com/TMM.Japan/",
+        "website": "https://tokyomarathimandal.com/",
+        "image": "https://img1.wsimg.com/isteam/ip/3f4b3412-a129-4c68-9e04-6bcd000b5320/imgonline-com-ua-shape-DuwhJleiHZXlcbN.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7303500196557,
+          35.84565919129237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Tbilisi",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_tbilisi",
+        "facebook": "",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.73415772008214,
+          41.86553042460622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Luxembourg",
+        "instagram": "https://www.instagram.com/marathi.mandalluxembourg/",
+        "facebook": "https://www.facebook.com/MarathiMandalLuxembourg",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.173101172285941,
+          49.623203847999754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Ireland",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_ireland/",
+        "facebook": "https://www.facebook.com/profile.php?id=100052902849398",
+        "website": "https://maharashtramandal.ie/",
+        "image": "https://u11ef7.n3cdn1.secureserver.net/wp-content/uploads/2023/10/cropped-cropped-For-All-DP-scaled-1-150x150.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.269352360014031,
+          53.3522132259501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal France ",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_france/",
+        "facebook": "https://www.facebook.com/mmfr.org/",
+        "website": "https://mmfr.org/",
+        "image": "https://mmfr.org/wp-content/uploads/2016/12/MMFR-logo.gif"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3490945189621386,
+          48.856475739520555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Denmark",
+        "instagram": "https://www.instagram.com/maharashtramandaldenmark",
+        "facebook": "https://www.facebook.com/profile.php?id=100069416002377",
+        "website": "www.maharashtramandaldenmark.com",
+        "image": "images/mandal/maharashtramandaldenmark.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.563992331025254,
+          55.68798112703392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Ireland",
+        "instagram": "https://www.instagram.com/marathi.mandalireland/",
+        "facebook": "https://www.facebook.com/marathi.mandalireland/",
+        "website": "https://www.irishmarathi.com/index.html",
+        "image": "https://www.irishmarathi.com/images/logo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.169352360014031,
+          53.3722132259501
         ]
       }
     }
