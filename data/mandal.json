@@ -318,7 +318,7 @@
         "instagram": "https://www.instagram.com/marathi.mandalireland/",
         "facebook": "https://www.facebook.com/marathi.mandalireland/",
         "website": "https://www.irishmarathi.com/index.html",
-        "image": "https://www.irishmarathi.com/images/logo.jpg"
+        "image": "images/mandal/irishmarathilogo.jpeg"
       },
       "geometry": {
         "type": "Point",
@@ -341,8 +341,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.007487834845165,
-          8.40644078185392
+          8.40644078185392,
+          49.007487834845165
         ]
       }
     },
@@ -359,8 +359,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.589820147276086,
-          11.007370525587811
+          11.007370525587811,
+          49.589820147276086
         ]
       }
     },
@@ -377,8 +377,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.211820046962124,
-          -122.92506434184789
+          -122.92506434184789,
+          49.211820046962124
         ]
       }
     },
@@ -395,8 +395,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          53.54989508482689,
-          -113.49552823934476
+          -113.49552823934476,
+          53.54989508482689
         ]
       }
     },
@@ -413,8 +413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          51.043167749490344,
-          -114.07547538277755
+          -114.07547538277755,
+          51.043167749490344
         ]
       }
     },
@@ -431,8 +431,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.53725709668569,
-          -79.67838211217715
+          -79.67838211217715,
+          43.53725709668569
         ]
       }
     },
@@ -449,8 +449,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.65158544507073,
-          -79.38905829960252
+          -79.38905829960252,
+          43.65158544507073
         ]
       }
     },
@@ -467,8 +467,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          49.111820046962124,
-          -122.93506434184789
+          -122.93506434184789,
+          49.111820046962124
         ]
       }
     }
