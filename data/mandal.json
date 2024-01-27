@@ -327,6 +327,150 @@
           53.3722132259501
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Karlsruhe",
+        "instagram": "https://www.instagram.com/maharashtramandalkarlsruhe/",
+        "facebook": "https://www.facebook.com/groups/2234806483471126/",
+        "website": "",
+        "image": "images/mandal/maharashtramandalkarlsruhe.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.007487834845165,
+          8.40644078185392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Vishwa Franken",
+        "instagram": "https://www.instagram.com/marathivishwafranken/",
+        "facebook": "https://www.facebook.com/marathivishwafranken/",
+        "website": "",
+        "image": "images/mandal/MarathiVishwaFranken.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.589820147276086,
+          11.007370525587811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "MSBC Vancouver Marathi Mandal",
+        "instagram": "https://www.instagram.com/marathisocietyofbc",
+        "facebook": "",
+        "website": "https://marathisocietyofbc.org/home-1",
+        "image": "https://static.tugoz.com/images/users/IC2EDD3F719056C2.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.211820046962124,
+          -122.92506434184789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Bhashik Mandal Edmonton",
+        "instagram": "https://www.instagram.com/mbmedmonton",
+        "facebook": "https://www.facebook.com/mbmedmonton/",
+        "website": "",
+        "image": "images/mandal/maharashtramandaledmonton.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.54989508482689,
+          -113.49552823934476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Calgary Marathi Association",
+        "instagram": "https://www.instagram.com/calgarymarathiassociation",
+        "facebook": "https://www.facebook.com/cmacalgary",
+        "website": "https://www.cmacalgary.ca/pages/",
+        "image": "images/mandal/MarathiAssociationCalgary.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.043167749490344,
+          -114.07547538277755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Katta Canada",
+        "instagram": "https://www.instagram.com/marathikatta_canada",
+        "facebook": "",
+        "website": "",
+        "image": "https://marathikattacanada.com/home/wp-content/uploads/2023/09/cropped-331158816_588541872778327_8280257067009507638_n-2.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.53725709668569,
+          -79.67838211217715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Bhashik Mandal",
+        "instagram": "https://www.instagram.com/mbmtoronto",
+        "facebook": "https://www.facebook.com/mbmtoronto/",
+        "website": "https://www.mbmtoronto.com/",
+        "image": "https://www.mbmtoronto.com/wp-content/uploads/2021/12/MBM.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.65158544507073,
+          -79.38905829960252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Vancouver Marathi community",
+        "instagram": "https://www.instagram.com/vancouvermarathi",
+        "facebook": "",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.111820046962124,
+          -122.93506434184789
+        ]
+      }
     }
   ]
 }

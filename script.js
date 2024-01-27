@@ -65,8 +65,11 @@ function clickZoom(e) {
 let geojsonOpts = {
   pointToLayer: function (feature, latlng) {
     if (feature.properties.image === undefined || feature.properties.image === "") {
-      feature.properties.image =
-        "images/no_img.png";
+      feature.properties.image = "images/no_img.png";
+      logoImg = "<a> </a>"
+
+    } else {
+      logoImg = "<img src=" + feature.properties.image + " width='75px' height='55px' >"
     }
 
     if (feature.properties.instagram === undefined || feature.properties.instagram === "") {
@@ -103,7 +106,7 @@ let geojsonOpts = {
         feature.properties.name +
         "</b>" + "<br>" +
         feature.properties.amenity +
-        "<br>" +
+        "<br>" + logoImg +
         "<br>" + tooltipIG +
         "<br>" + tooltipFB +
         "<br>" + tooltipWEB
