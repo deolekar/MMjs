@@ -471,6 +471,312 @@
           49.111820046962124
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Bergen",
+        "instagram": "https://www.instagram.com/maharashtra.mandal.bergen/",
+        "facebook": "https://www.facebook.com/profile.php?id=61550700425737",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.30533024810605,
+          60.39019979251905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Abu Dhabi",
+        "instagram": "https://www.instagram.com/maharashtramandalabudhabi/",
+        "facebook": "https://www.facebook.com/mmadadmin/",
+        "website": "https://mmabudhabi.com/",
+        "image": "https://mmabudhabi.com/wp-content/uploads/2022/01/MMAD-Logo-web.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.36628817819715,
+          24.462747678996116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Uppsala",
+        "instagram": "https://www.instagram.com/marathimandaluppsala/",
+        "facebook": "https://www.facebook.com/marathimandaluppsala",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.62959847154215,
+          59.85973493459648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mitra Mandal Hamburg e.V",
+        "instagram": "https://www.instagram.com/marathi_mitra_mandal_hamburg/",
+        "facebook": "https://www.facebook.com/groups/186292195271419/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.97794079670147,
+          53.54785282093346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal (Singapore)",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_singapore/",
+        "facebook": "https://www.facebook.com/maharashtramandalSG",
+        "website": "https://www.mmsingapore.org/",
+        "image": "images/mandal/MaharashtraMandalSingapore.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8240252826363,
+          1.2860773617688392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal-Norway",
+        "instagram": "https://www.instagram.com/maharashtramandalnorway/",
+        "facebook": "https://www.facebook.com/MMNoslo",
+        "website": "https://marathimandal-norway.no/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.753521358061862,
+          59.914411163603404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Gothenburg Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/gbgmm_official/",
+        "facebook": "https://www.facebook.com/groups/GBGMM/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.926756106570469,
+          57.71156925837075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Netherlands Marathi Mandal",
+        "instagram": "https://www.instagram.com/nmm.netherlands/",
+        "facebook": "https://www.facebook.com/NMMRashmin",
+        "website": "https://netherlandsmarathimandal.org/",
+        "image": "https://i1.wp.com/netherlandsmarathimandal.org/wp-content/uploads/2018/07/Rashminlogo-2017frontpage.png?fit=246%2C169&ssl=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.33033977116473,
+          52.00973056635569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra_Mandal_Stockholm",
+        "instagram": "https://www.instagram.com/maharashtra_mandal_stockholm",
+        "facebook": "",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.065813623326346,
+          59.32954070756951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Stuttgart e.V.",
+        "instagram": "https://www.instagram.com/maharashtramandalstuttgart/",
+        "facebook": "https://www.facebook.com/Maharashtramandalstuttgart",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.183040499185323,
+          48.77616277822502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Katta Germany eV",
+        "instagram": "https://www.instagram.com/marathikattagermany",
+        "facebook": "https://www.facebook.com/marathikattagermany/",
+        "website": "https://www.marathikattagermany.com/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.683254081638188,
+          50.11127611331955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mitra Mandal",
+        "instagram": "https://www.instagram.com/mmm_germany",
+        "facebook": "https://www.facebook.com/groups/marathimitramandal2010/",
+        "website": "https://www.marathimitramandal.com/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.542244601846895,
+          51.334807988508544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Wolfsburg Marathi Mandal e.V, Germany",
+        "instagram": "https://www.instagram.com/wmm_ev",
+        "facebook": "https://www.facebook.com/WMMEV",
+        "website": "https://wolfsburgmarathimandal.de/",
+        "image": "images/mandal/WolfsburgMarathiMandal.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7851302598845,
+          52.42091747411728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Eindhoven Marathi Mitramandal",
+        "instagram": "https://www.instagram.com/eindhoven_marathi_mitramandal",
+        "facebook": "https://www.facebook.com/profile.php?id=100012919780704",
+        "website": "https://www.eindhoven-marathi-mitramandal.com/",
+        "image": "https://static.wixstatic.com/media/690adf_cc4e21835bd44b5cb4c49ae4b71ba53a~mv2.png/v1/fill/w_134,h_160,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo-v1.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.455283948103188,
+          51.422773644245176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Munich e.V.",
+        "instagram": "https://www.instagram.com/mm.munich",
+        "facebook": "https://www.facebook.com/maharashtramandal.munich/",
+        "website": "https://mmmunich.com/",
+        "image": "https://mmmunich.com/wp-content/uploads/2019/03/mmmunich-lg.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.583708331702935,
+          48.13417542588093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mitra Berlin e.V.",
+        "instagram": "https://www.instagram.com/marathi.berlin",
+        "facebook": "https://www.facebook.com/groups/226899537364688",
+        "website": "https://marathimitraberlin.de/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.406833364509717,
+          52.51390848690699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "BraWo Marathi Mandal e. V.",
+        "instagram": "https://www.instagram.com/brawomm/",
+        "facebook": "https://www.facebook.com/groups/385571599037390",
+        "website": "https://www.brawomarathimandal.de/",
+        "image": "https://www.brawomarathimandal.de/wp-content/uploads/2020/05/BraWoMarathiMandalLogo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.51826034074548,
+          52.27081716566418
+        ]
+      }
     }
   ]
 }
