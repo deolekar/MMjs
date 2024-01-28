@@ -143,8 +143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          74.73489823467742,
-          -36.848367064715234
+          174.73316739750356,
+          -36.85048854500785
         ]
       }
     },
@@ -775,6 +775,204 @@
         "coordinates": [
           10.51826034074548,
           52.27081716566418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Of Victoria",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/MaharashtraMandalVictoria/",
+        "website": "https://mmvic.org.au/",
+        "image": "https://mmvic.org.au/wp-content/uploads/2016/06/cropped-cropped-mmvic-banner-transparent-3.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.15170335767058,
+          -37.86562013217375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Northern Melbourne Marathi Mandal",
+        "instagram": "https://www.instagram.com/northern_melbourne_marathi/",
+        "facebook": "https://www.facebook.com/groups/461016575147028/",
+        "website": "https://nmmarathi.org.au/",
+        "image": "https://nmmarathi.org.au/wp-content/uploads/2021/09/cropped-final-melbourne-logo-scaled-e1632484585843.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.0875675960689,
+          -37.73099021171018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal of Perth",
+        "instagram": "https://www.instagram.com/maharashtramandalperth/",
+        "facebook": "https://www.facebook.com/p/Maharashtra-Mandal-Perth-100069848580451/",
+        "website": "https://mahamandalperth.org/",
+        "image": "https://mahamandalperth.org/wp-content/uploads/2018/09/MMPLogoWithRing@2x.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8938177787421,
+          -31.95474536912371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Adelaide Marathi Mandal",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/AdelaideMMandal",
+        "website": "https://www.adelaidemm.org.au/",
+        "image": "images/mandal/AdelaideMMandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57914353001826,
+          -34.928268644959914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal South Africa",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/MarathiMandalSouthAfrica",
+        "website": "https://mmsa.org.za/",
+        "image": "https://mmsa.org.za/RUHA/Uploads/MMSA/MMSA_company_logo/1_image_small30.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.019425636279976,
+          -26.200481105558417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Durban Marathi Mandal",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/garjemarathisouthafrica",
+        "website": "",
+        "image": "images/mandal/DurbanMarathiMandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.018389258375535,
+          -29.86004535426405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal, Nairobi",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/MMN2011/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.81029837760115,
+          -1.2915335790911242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Jakarta",
+        "instagram": "https://www.instagram.com/mmj_jkt/",
+        "facebook": "https://www.facebook.com/profile.php?id=100066461477496",
+        "website": "",
+        "image": "images/mandal/MaharashtraMandalJakarta.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8253786267079,
+          -6.195590284795302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Shanghai Marathi",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/shanghaimarathi/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.39958026794747,
+          31.262587203597903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal HongKong",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/people/Maharashtra-Mandal-HK/100008950150916/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18408836928228,
+          22.299662435545567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Korea",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/MarathiMandalKorea/",
+        "website": "",
+        "image": "images/mandal/MarathiMandalKorea.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99129008650748,
+          37.567482899409335
         ]
       }
     }
