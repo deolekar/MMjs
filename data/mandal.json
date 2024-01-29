@@ -975,6 +975,204 @@
           37.567482899409335
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Wales Maharastra Mandal",
+        "instagram": "https://www.instagram.com/walesmaharashtramandal/",
+        "facebook": "",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1724373390543077,
+          51.48318745147402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Slough Mitra Mandal",
+        "instagram": "https://www.instagram.com/sloughmitramandal/",
+        "facebook": "https://www.facebook.com/groups/sloughmm/",
+        "website": "https://sloughmitramandal.co.uk/",
+        "image": "https://sloughmitramandal.co.uk/images/logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6148155742979973,
+          51.508841680196554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "MAHARASHTRA MANDAL London",
+        "instagram": "https://www.instagram.com/maharashtramandalondon/",
+        "facebook": "https://www.facebook.com/MaharashtraMandalLondon/",
+        "website": "https://www.mmlondon.co.uk/",
+        "image": "https://www.mmlondon.co.uk/wp-content/uploads/MML.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22743145397674988,
+          51.56409773808279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Manchester Marathi Mandal",
+        "instagram": "https://www.instagram.com/manchestermarathimandal/",
+        "facebook": "https://www.facebook.com/groups/ManchesterMarathiMandal",
+        "website": "",
+        "image": "images/mandal/ManchesterMarathiMandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2485163676571727,
+          53.48140303995059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "MARATHI MITRA MANDAL MIDLANDS",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/1507745482851342/",
+        "website": "",
+        "image": "images/mandal/MidlandsMarathiMandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.897272678660363,
+          52.48813969732936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Leeds Marathi Mitra Mandal",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/212277962495943/",
+        "website": "https://www.leedsmmm.co.uk/",
+        "image": "https://static.wixstatic.com/media/4b68c4_68c4b4f5e1024c6dae1850a2f9117e73~mv2.jpg/v1/fill/w_342,h_118,al_c,q_80,usm_4.00_1.00_0.00,enc_auto/LMMM_Logo_Fina.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.554969613489942,
+          53.801834548559974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Ilford Mitra Mandal ",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/IlfordMitraMandal/",
+        "website": "http://www.ilfordmitramandal.com/",
+        "image": "images/mandal/IlfordMitraMandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07394986490672195,
+          51.55715833157423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Reading UK",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/marathimandalreadinguk",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9812878743786511,
+          51.45527877983927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Scotland",
+        "instagram": "https://www.instagram.com/mh_mandal_scot",
+        "facebook": "https://www.facebook.com/MhMandalScot",
+        "website": "",
+        "image": "images/mandal/MaharashtraMandalScotland.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.273657227440045,
+          55.862782050367514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "South of England Marathi Parivar",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/sempariwar",
+        "website": "https://www.sempariwar.org/home",
+        "image": "images/mandal/SEMPLogo.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3896348715751146,
+          51.0669704607976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "East Midland Marathi Association",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/groups/emmaleicester/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1462847458683298,
+          52.64816804025945
+        ]
+      }
     }
   ]
 }
