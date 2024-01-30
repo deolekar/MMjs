@@ -19,10 +19,16 @@ const map = L.map("map", config).setView([lat, lng], zoom);
 
 // Used to load and display tile layers on the map
 // Most tile servers require attribution, which you can set under `Layer`
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+/*L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution:
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
+*/
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://carto.com/">carto.com</a> contributors'
+}).addTo(map);
+
 
 function onEachFeature(feature, layer) {
   layer.bindPopup(feature.properties.nazwa);
