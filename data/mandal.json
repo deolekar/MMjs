@@ -1173,6 +1173,96 @@
           52.64816804025945
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal of Kansas City",
+        "instagram": "https://www.instagram.com/mmkansascity/",
+        "facebook": "https://www.facebook.com/mmkansascity/",
+        "website": "https://www.mmkansascity.org/home",
+        "image": "images/mandal/KansasMMKCLogo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8044531584496,
+          39.225224923236986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Oregon Marathi Mandal",
+        "instagram": "https://www.instagram.com/oregonmm/",
+        "facebook": "https://www.facebook.com/oregonmm/",
+        "website": "https://oregonmm.org/",
+        "image": "https://oregonmm.org/wp-content/uploads/2023/03/OMM-Logo-Home-Page.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.93059523682186,
+          45.461608859567136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Sacramento",
+        "instagram": "https://www.instagram.com/marathimandalsacramento/",
+        "facebook": "https://www.facebook.com/marathimandalsacramento/",
+        "website": "http://mmsac.org/",
+        "image": "images/mandal/maharashtramandalsacremento.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.17140483201293,
+          38.664316007052264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal, Kuwait",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/maharashtramandalkw/",
+        "website": "https://mmkuwait.in/",
+        "image": "https://mmkuwait.in/wp-content/uploads/2023/05/MMK_LOGO-removebg-preview.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.14164568521369,
+          29.44092235964904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Mandal Botswana",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/marathimandal.bw/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.742279350708316,
+          -22.200506858863204
+        ]
+      }
     }
   ]
 }
