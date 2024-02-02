@@ -1263,6 +1263,186 @@
           -22.200506858863204
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Columbus Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/columbusmaharashtramandal/",
+        "facebook": "https://www.facebook.com/Columbusmm.org/",
+        "website": "https://www.columbusmm.org/",
+        "image": "images/mandal/columbusmaharashtramandal.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.04532356235858,
+          40.02088412714503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal-Atlanta",
+        "instagram": "https://www.instagram.com/mmandalatl/",
+        "facebook": "https://www.facebook.com/mmatlanta",
+        "website": "https://mmatlanta.org/",
+        "image": "images/mandal/MaharashtraMandalAtlanta.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40092061895342,
+          33.752415631368955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal of Los Angeles",
+        "instagram": "https://www.instagram.com/maharashtramandalla/",
+        "facebook": "https://www.facebook.com/mmla.org",
+        "website": "https://www.mmla.org/",
+        "image": "https://www.mmla.org/resources/Pictures/final%20mmla%20logo.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2771499903625,
+          34.058032451466175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Ann Arbor Marathi Mandal",
+        "instagram": "https://www.instagram.com/annarbormarathimandal/",
+        "facebook": "https://www.facebook.com/annarbormarathimandal",
+        "website": "https://www.a2mm.org/",
+        "image": "images/mandal/annarbormarathimandal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.74249954927534,
+          42.281419658780585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Tennessee Marathi Mandal",
+        "instagram": "https://www.instagram.com/tn_marathi_mandal/",
+        "facebook": "https://www.facebook.com/MarathiMandalOfTennessee/",
+        "website": "https://www.tnmm.org/",
+        "image": "images/mandal/MarathiMandalOfTennessee.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.86161200673999,
+          35.72146770851417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal of Detroit",
+        "instagram": "https://www.instagram.com/maharashtramandal_detroit/",
+        "facebook": "https://www.facebook.com/mmdet",
+        "website": "https://www.mmdet.org/",
+        "image": "https://www.mmdet.org/wp-content/uploads/2023/01/MMD-Logo_Main-81x77.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.05458729906753,
+          42.33330731250002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Houston Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/houstonmaharashtramandal/",
+        "facebook": "https://www.facebook.com/HMaharashtraMandal",
+        "website": "https://www.houstonmaharashtramandal.org/",
+        "image": "https://www.houstonmaharashtramandal.org/wp-content/uploads/2021/03/HMM_new-logo-text.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37389340795416,
+          29.76194504531307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Utah Marathi Mandal",
+        "instagram": "https://www.instagram.com/utahmarathimandal/",
+        "facebook": "https://www.facebook.com/utahmarathimandal",
+        "website": "http://utahmarathi.com/",
+        "image": "images/mandal/UtahMarathiMandal.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.64974669184677,
+          39.09564799034684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Seattle Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/seattlemaharashtramandal/",
+        "facebook": "https://www.facebook.com/seattlemm",
+        "website": "https://www.seattlemm.org/",
+        "image": "https://i0.wp.com/www.seattlemm.org/wp-content/uploads/2016/04/smmlogo-main.jpg?resize=1024%2C266&ssl=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33727081540238,
+          47.60598013192773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Greater Richmond Marathi Mandal",
+        "instagram": "https://www.instagram.com/grmm.us",
+        "facebook": "https://www.facebook.com/groups/GRMMVA/",
+        "website": "https://grmm.us/",
+        "image": "images/mandal/GreaterRichmondMarathiMandal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.43867698168965,
+          37.54151217084095
+        ]
+      }
     }
   ]
 }
