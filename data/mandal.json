@@ -1443,6 +1443,186 @@
           37.54151217084095
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Louisvill Marathi Mandal",
+        "instagram": "https://www.instagram.com/louisvillemarathimandal",
+        "facebook": "https://www.facebook.com/groups/747199568759422/",
+        "website": "",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.76603440885008,
+          38.25569557061157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Of Chicago",
+        "instagram": "https://www.instagram.com/maharashtramandalofchicago",
+        "facebook": "https://www.facebook.com/mahamandalchicago",
+        "website": "https://www.mahamandalchicago.org/",
+        "image": "images/mandal/mahamandalchicago.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.64413052385429,
+          41.88031268412223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Charlotte Marathi Mandal",
+        "instagram": "https://www.instagram.com/charlottemarathimandal",
+        "facebook": "https://www.facebook.com/CharlotteMarathiMandal",
+        "website": "https://charlottemarathimandal.org/",
+        "image": "images/mandal/charlottemarathimandal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.85087867130761,
+          35.227390072689396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Baltimore Marathi Mandal",
+        "instagram": "https://www.instagram.com/bmoremarathi",
+        "facebook": "",
+        "website": "https://baltimoremarathimandal.org/",
+        "image": "https://i0.wp.com/baltimoremarathimandal.org/wp-content/uploads/2019/04/cropped-bmm-logo-1.jpg?fit=60%2C60&ssl=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.60642426865918,
+          39.289726145587174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Phoenix Maharashtra Mandal",
+        "instagram": "https://www.instagram.com/phxmm_21",
+        "facebook": "",
+        "website": "https://www.phxmm.com/",
+        "image": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.08429096226783,
+          33.45159052485687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "St. Louis Marathi Mandal",
+        "instagram": "https://www.instagram.com/stlouismarathimandal",
+        "facebook": "https://www.facebook.com/StlMarathiMandal",
+        "website": "https://www.stlmarathimandal.org/",
+        "image": "images/mandal/stlouismarathimandal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.20227838267105,
+          38.62455894164726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "SAN ANTONIO MAHARASHTRA MANDAL",
+        "instagram": "https://www.instagram.com/samaharashtramandal",
+        "facebook": "https://www.facebook.com/groups/153100111384432/?locale=en_GB",
+        "website": "https://sanantoniomaharashtramandal.org/",
+        "image": "https://8vzdc6.p3cdn1.secureserver.net/wp-content/uploads/2022/03/LogoSAMMWebsite-300x300.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.53367056853199,
+          29.432288707985178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Austin Marathi Mandal",
+        "instagram": "https://www.instagram.com/austin_marathi_mandal",
+        "facebook": "https://www.facebook.com/austinmarathimandal/",
+        "website": "https://www.austinmarathimandal.org/",
+        "image": "images/mandal/austin_marathi_mandal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7352104892543,
+          30.268214971133503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal Bay Area",
+        "instagram": "https://www.instagram.com/mmbayarea",
+        "facebook": "https://www.facebook.com/mmbayarea",
+        "website": "https://mmbayarea.org/",
+        "image": "images/mandal/mmbayarea.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.87247079998222,
+          37.417541445169405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Memphis Marathi Mandal",
+        "instagram": "https://www.instagram.com/memmarathigroup",
+        "facebook": "https://www.facebook.com/memphismarathimandal/",
+        "website": "",
+        "image": "images/mandal/memphismarathimandal.jpeg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.05600021185381,
+          35.15209590554266
+        ]
+      }
     }
   ]
 }

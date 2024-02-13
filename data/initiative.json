@@ -39,6 +39,24 @@
           38.575764
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Social Initiative",
+        "name": "San Antonio Marathi Shala",
+        "instagram": "",
+        "facebook": "",
+        "website": "https://samarathishala.com/index",
+        "image": "https://samarathishala.com/images/Logo.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5240575321293,
+          29.43826937058836
+        ]
+      }
     }
   ]
 }
