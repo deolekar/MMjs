@@ -1,4 +1,5 @@
 ## Maharashtra Mandal
+https://maharashtramandal.in
 
 ### Project: There are many Maharashtra Mandals worldwide. Purpose of this project is to:
 * bring them together
@@ -11,7 +12,7 @@
 * Ensure coordinate format as [Longitude, Latitude]
 * There are three JSON files, one each for Mandal, Business, Initiative 
 >Non-Techy way - via Instagram: Send us a message on https://www.instagram.com/maharashtramandal with following details.
-* Type of Entry [eg  - Mandal,  Business, Initiate]
+* Type of Entry [eg  - Mandal,  Business, Initiative]
 * Name of the Organisation
 * Instagram, Facebook, Website Link
 * Logo image
