@@ -6,7 +6,7 @@ https://maharashtramandal.in
 * have better online presence
 * share what's happening in a Mandal with the world
 
-### Contribute: 
+### Contribute (Check ToDo.txt): 
 >Techy way - via gitHub (Preferable):
 * Raise a PR to update JSON. 
 * Ensure coordinate format as [Longitude, Latitude]
