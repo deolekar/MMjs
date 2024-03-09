@@ -1,5 +1,5 @@
 ## Maharashtra Mandal
-https://maharashtramandal.in
+https://www.maharashtramandal.in
 
 ### Project: There are many Maharashtra Mandals worldwide. Purpose of this project is to:
 * bring them together
