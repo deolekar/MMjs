@@ -68,58 +68,99 @@ function clickZoom(e) {
   map.setView(e.target.getLatLng());
 }
 
-let geojsonOpts = {
-  pointToLayer: function (feature, latlng) {
-    if (feature.properties.image === undefined || feature.properties.image === "") {
-      feature.properties.image = "images/no_img.png";
-      logoImg = "<a> </a>"
+// geojson config
+function geoJsonConfig(layerName) {
+  // create a new marker cluster group
+  window[layerName] = L.markerClusterGroup();
 
-    } else {
-      logoImg = "<img src=" + feature.properties.image + " width='75px' height='55px' >"
-    }
+  let geojsonOpts = {
+    pointToLayer: function (feature, latlng) {
+      // console.log(feature.properties);
 
-    if (feature.properties.instagram === undefined || feature.properties.instagram === "") {
-      tooltipIG = "<a> </a>"
-    } else {
-      tooltipIG = "<a href=" + feature.properties.instagram + " target='_blank'>Instagram </a>"
-      console.log(tooltipIG)
-    }
+      if (
+        feature.properties.image === undefined ||
+        feature.properties.image === ""
+      ) {
+        feature.properties.image = "images/no_img.png";
+        logoImg = "<a> </a>";
+      } else {
+        logoImg =
+          "<img src=" +
+          feature.properties.image +
+          " width='75px' height='55px' >";
+      }
 
-    if (feature.properties.facebook === undefined || feature.properties.facebook === "") {
-      tooltipFB = "<a> </a>"
-    } else {
-      tooltipFB = "<a href=" + feature.properties.facebook + " target='_blank'>Facebook </a>"
-      console.log(tooltipFB)
-    }
+      if (
+        feature.properties.instagram === undefined ||
+        feature.properties.instagram === ""
+      ) {
+        tooltipIG = "<a> </a>";
+      } else {
+        tooltipIG =
+          "<a href=" +
+          feature.properties.instagram +
+          " target='_blank'>Instagram </a>";
+        // console.log(tooltipIG);
+      }
 
-    if (feature.properties.website === undefined || feature.properties.website === "") {
-      tooltipWEB = "<a> </a>"
-    } else {
-      tooltipWEB = "<a href=" + feature.properties.website + " target='_blank'>Website </a>"
-      console.log(tooltipWEB)
-    }
+      if (
+        feature.properties.facebook === undefined ||
+        feature.properties.facebook === ""
+      ) {
+        tooltipFB = "<a> </a>";
+      } else {
+        tooltipFB =
+          "<a href=" +
+          feature.properties.facebook +
+          " target='_blank'>Facebook </a>";
+        // console.log(tooltipFB);
+      }
 
-    return L.marker(latlng, {
-      icon: L.icon({
-        className: "image-icon",
-        iconSize: [50, 30],
-        iconUrl: feature.properties.image,
-        popupAnchor: [0, -40],
-      }),
-    })
-      .bindPopup(
-        "<b>" +
-        feature.properties.name +
-        "</b>" + "<br>" +
-        feature.properties.amenity +
-        "<br>" + logoImg +
-        "<br>" + tooltipIG +
-        "<br>" + tooltipFB +
-        "<br>" + tooltipWEB
-      )
-      .on("click", clickZoom);
-  },
-};
+      if (
+        feature.properties.website === undefined ||
+        feature.properties.website === ""
+      ) {
+        tooltipWEB = "<a> </a>";
+      } else {
+        tooltipWEB =
+          "<a href=" +
+          feature.properties.website +
+          " target='_blank'>Website </a>";
+        // console.log(tooltipWEB);
+      }
+
+      // add marker to markers cluster group
+      return window[layerName].addLayer(
+        L.marker(latlng, {
+          icon: L.icon({
+            className: "image-icon",
+            iconSize: [50, 30],
+            iconUrl: feature.properties.image,
+            popupAnchor: [0, -40],
+          }),
+        })
+          .bindPopup(
+            "<b>" +
+            feature.properties.name +
+            "</b>" +
+            "<br>" +
+            feature.properties.amenity +
+            "<br>" +
+            logoImg +
+            "<br>" +
+            tooltipIG +
+            "<br>" +
+            tooltipFB +
+            "<br>" +
+            tooltipWEB
+          )
+          .on("click", clickZoom)
+      );
+    },
+  };
+
+  return geojsonOpts;
+}
 
 const layersContainer = document.querySelector(".layers");
 
@@ -146,13 +187,17 @@ generateButton(layersButton);
 const arrayLayers = ["mandal", "business", "initiative"];
 
 arrayLayers.map((json) => {
+  // let markers = L.markerClusterGroup();
+
   generateButton(json);
   fetchData(`./data/${json}.json`).then((data) => {
-    window["layer_" + json] = L.geoJSON(data, geojsonOpts).addTo(map);
+    window["layer_" + json] = L.geoJSON(data, geoJsonConfig(json)).addTo(map);
   });
 });
 
 document.addEventListener("click", (e) => {
+  e.stopPropagation();
+
   const target = e.target;
 
   const itemInput = target.closest(".item");
@@ -174,8 +219,10 @@ function showHideLayer(target) {
 
   const checkedBoxes = document.querySelectorAll("input[name=item]:checked");
 
-  document.querySelector("#all-layers").checked =
-    checkedBoxes.length - (document.querySelector("#all-layers").checked === true ? 1 : 0) < 3 ? false : true;
+  const allLayers = document.querySelector("#all-layers");
+  allLayers.checked =
+    checkedBoxes.length - (allLayers.checked === true ? 1 : 0) < 3 ? false
+      : true;
 }
 
 function checkedType(id, type) {
