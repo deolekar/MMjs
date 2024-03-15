@@ -1623,6 +1623,42 @@
           35.15209590554266
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Marathi Vishwa NJ",
+        "instagram": "https://www.instagram.com/marathivishwanj/",
+        "facebook": "https://www.facebook.com/marathivishwanj/",
+        "website": "https://marathivishwa.org/",
+        "image": "https://cdn.marathivishwa.org/wp-content/uploads/2023/05/MVLogoTransparent.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.36024685767055,
+          40.53997176835398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Maharashtra Mandal New York",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/maharashtramandal.ny/",
+        "website": "https://mmny.online/",
+        "image": "images/mandal/MaharashtraMandalNewYork.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82525428833803,
+          40.73423028862836
+        ]
+      }
     }
   ]
 }

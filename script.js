@@ -42,11 +42,23 @@ fetch("../data/india.geojson")
   })
   .then(function (data) {
     // use geoJSON
-    L.geoJSON(data, {
+    L.geoJSON(data, { style: style }, {
       onEachFeature: onEachFeature,
     }).addTo(map);
   });
 
+function style(feature) {
+  return {
+    weight: 1.5,
+    opacity: 1,
+    color: 'white',
+    fillOpacity: getColor(feature.properties.ST_NM)
+  };
+}
+
+function getColor(d) {
+  return d == 'Maharashtra' ? '60%' : '05%';
+}
 // ------------------------------------------------------------
 
 // async function to load geojson
