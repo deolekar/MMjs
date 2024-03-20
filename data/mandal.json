@@ -1659,6 +1659,24 @@
           40.73423028862836
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "amenity": "Mandal",
+        "name": "Colorado Marathi Mandal",
+        "instagram": "",
+        "facebook": "https://www.facebook.com/comarathiorg/",
+        "website": "https://www.comarathi.org/",
+        "image": "https://static.wixstatic.com/media/11c117_b981c837bc054d2296cd2457babd4b57~mv2.gif"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.01455357582176,
+          39.74729049409763
+        ]
+      }
     }
   ]
 }
