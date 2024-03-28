@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maharashtra Mandal - Infotainment</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="./hangman.css" />
+  <link rel="icon" href="../images/favicon.ico" />
+</head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div id="nav-placeholder"></div>
+      <script>
+        $(function () {
+          $("#nav-placeholder").load("../nav.html");
+        });
+      </script>
+    </nav>
+  </header>
+
+
+  <div class="wrapper hangmanGame">
+    <div class="overLay">
+        <div class="youWon result">
+            <h4>You Won!</h4>
+            <p>
+                <span class="word"></span>
+                <a class="gsearch" href="#" data-href="https://www.google.co.in/search?q=" target="_blank">?</a>					
+            </p>
+            <span class="next">Play Next</span>
+        </div>
+        <div class="youLost result">
+            <h4>You Lost :(</h4>
+            <p>
+                <span class="word"></span>
+                <a class="gsearch" href="#" data-href="https://www.google.co.in/search?q=" target="_blank">?</a>					
+            </p>
+            <span class="next">Play Next</span>
+        </div>
+    </div>
+
+    <div class="title">
+        HangMan
+    </div>
+    <div class="startWrapper">
+        <div class="categories">
+        <span>Select a category</span>
+        </div>
+        <div class="start">Start Game</div>
+    </div>
+    <div id="hangMan">
+        <div class="indicator">
+            <span class="maxTry">5</span>/<span class="remaining">5</span>
+        </div>
+        <div class="hangman">
+            <div class="shaft"></div>
+            <div class="pole"></div>  
+            <div class="rope"></div>
+            <div class="base"></div>
+            <div class="man">
+                <div class="wrapperMan">
+                <div class="face"></div>
+                <div class="hands"></div>
+                <div class="legs"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="answerSpace"><span></span></div>
+    <div id="keypad"></div>
+    <div id="scoreBoard">
+        <div class="reset"><div><span class="resetBtn">Reset</span></div></div>
+        <!--div class="mute"><div><span class="muteBtn">Sounds ON</span></div><div><span class="muteBtn">Sounds OFF</span></div></div-->
+        <div class="won"><div>Won : <span class="wonCount">0</span></div></div>
+        <div class="lost"><div>Lost : <span class="lostCount">0</span></div></div>
+    </div>
+</div>
+<script src="./hangman.js"></script>
+</body>
+
+</html>
