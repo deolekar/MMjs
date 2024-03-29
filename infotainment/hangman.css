@@ -365,7 +365,7 @@
     cursor: pointer;
     background: #800080;
     color: #fff;
-    width: 25%;
+    width: 33.3%;
     float: left;
   }
   .wrapper #scoreBoard > div > div {
@@ -406,4 +406,5 @@
       transform: rotate(45deg);
     }
   }
+  
   
