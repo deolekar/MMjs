@@ -34,9 +34,9 @@ hangManGame.gameSetup = (function (window, $, namespace) {
     _createCategory = function () {
         // Creating the keyboard and pushing them inside 
         var themes = hangManGame.gameConfig.wordListType;
-        var select = '<select size="' + themes.length + '" class="category"><option selected>' + themes[0] + '</option>';
+        var select = '<select size="' + themes.length + '" class="category"><option selected>' + "🔻 " + themes[0] + '</option>';
         for (var i = 1; i < themes.length; i++) {
-            select += '<option>' + themes[i] + '</option>';
+            select += '<option>' + "🔻 " + themes[i] + '</option>';
         }
         select += '</section>';
         $(category).append(select);
@@ -73,7 +73,6 @@ hangManGame.gameSetup = (function (window, $, namespace) {
         init: init
     };
 }(this, jQuery, 'hangManGame'));
-
 
 /*
 **
@@ -132,7 +131,6 @@ hangManGame.theGame = (function (window, $, namespace) {
         $(maxTry).html(remainingTurns),
             $(theme).html(thisTheme),
             $(remaining).html(remainingTurns);
-        console.log('in: ', thisTheme);
 
         answerSpaceChild.html(wait);
         for (var i = 0; i < len; i++) {
@@ -197,8 +195,7 @@ hangManGame.theGame = (function (window, $, namespace) {
     _hangMan = function () {
         wrongPress++;
         $(hangManGraphic).addClass('hang' + wrongPress);
-        if (remainingTurns <= 0) {
-            //console.log('Game Over'); // ############ LOST #######
+        if (remainingTurns <= 0) { // ############ LOST #######
             $('body').removeClass('inProgress');
             var lostCounter = Number($(lostCount).html());
             lostCounter++;
@@ -220,7 +217,6 @@ hangManGame.theGame = (function (window, $, namespace) {
         _setupSingleGame();
         $('body').addClass('inProgress');
     };
-
 
     return {
         init: init,
@@ -260,7 +256,6 @@ hangManGame.gameConfig = (function (window, $, namespace) {
     setCurrentTheme = function (theme) {
         currentTheme = theme;
         thisTheme = wordListType[currentTheme];
-        console.log(thisTheme);
     };
 
     toggleMute = function () {

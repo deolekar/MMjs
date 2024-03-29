@@ -143,12 +143,25 @@ input[type="checkbox"]:checked {
   .marker-click {
     margin: 5px 10px;
   }
+  .fit{
+    width: 300px
+  }
 }
 
 .marker-click {
   text-decoration: none;
   color: red;
 }
+
+@media (max-width: 400px) {
+  .fit{
+    width: 100%
+  }
+  
+
+}
+
+
 
 .search-tip {
   white-space: nowrap;
