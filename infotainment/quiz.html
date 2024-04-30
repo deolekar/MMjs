@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Mandal - Quiz</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./quizcss/quiz.css" />   
+    <link rel="icon" href="../images/favicon.ico" />
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav-placeholder"></div>
+            <script>
+                $(function () {
+                    $("#nav-placeholder").load("../nav.html");
+                });
+            </script>
+        </nav>
+    </header>
+
+    <section>
+      <nav>
+        <div class="social grad pad" style="font-size: medium;">
+          <h3 id="quiz-title"></h3>
+        </div>
+
+      </nav>
+      <div class="container-box">
+        <div class="box" id="rules-box">
+          <h3>Rules:</h3>
+          <p id="quiz-time"></p>
+          <p id="question-time"></p>
+          <button class="start-quiz btn btn-success">Start Quiz</button>
+        </div>
+
+        <div class="box" id="question-box">
+          <div class="display-time-box">
+            <p class="display-time">Questions </p>
+            <p class="display-time" id="questions-done"></p>
+            <p class="display-time"> of </p>
+            <p class="display-time" id="questions-total"></p>
+            <br />
+
+            <p class="display-time">Time Left for quiz:</p>
+            <p class="display-time" id="quiz-time-left"></p>
+            <br />
+            <p class="display-time">Time left for question:</p>
+            <p class="display-time" id="question-time-left"></p>
+          </div>
+
+          <h3 id="question"></h3>
+          <div id="radio-options"></div>
+          <button class="submit btn btn-success">Submit</button>
+          <button class="next btn btn btn-primary disabled">Next</button>
+        </div>
+      </div>
+    </section>
+
+          <script src="quizjavaScript/question.js"></script>
+          <script src="quizjavaScript/quiz.js"></script>
+</body>
+
+</html>

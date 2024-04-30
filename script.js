@@ -240,7 +240,5 @@ function showHideLayer(target) {
 function checkedType(id, type) {
   map[type ? "addLayer" : "removeLayer"](window["layer_" + id]);
 
-  //map.fitBounds(window[["layer_" + id]].getBounds(), { padding: [50, 50] });
-
   document.querySelector(`#${id}`).checked = type;
 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Mandal - Quiz</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./quizcss/styles.css" />
+    <link rel="icon" href="../images/favicon.ico" />
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav-placeholder"></div>
+            <script>
+                $(function () {
+                    $("#nav-placeholder").load("../nav.html");
+                });
+            </script>
+        </nav>
+    </header>
+
+
+        <section>
+            <div>
+              <h1>Select the quiz</h1>
+              <button class="select-quiz btn btn-dark" value="maharashtra">Maharashtra</button>
+              <!--button class="select-quiz btn btn-primary" value="quizTwo">
+                Quiz 2
+              </button>
+              <button class="select-quiz btn btn-warning" value="quizThree">
+                Quiz 3
+              </button>
+              <button class="select-quiz btn btn-warning" value="quizTen">
+                Quiz 10
+              </button-->
+            </div>
+          </section>
+
+          <script src="quizjavaScript/index.js"></script>
+</body>
+
+</html>

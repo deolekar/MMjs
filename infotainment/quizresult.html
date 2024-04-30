@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Mandal - Quiz Result</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./quizcss/result.css" />  
+    <link rel="icon" href="../images/favicon.ico" />
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav-placeholder"></div>
+            <script>
+                $(function () {
+                    $("#nav-placeholder").load("../nav.html");
+                });
+            </script>
+        </nav>
+    </header>
+
+    <section>
+      <div>
+        <h1>Result:</h1>
+        <h1 id="result"></h1>
+      </br></br>
+        <h3 id="feedback"></h3>
+      </div>
+    </section>
+
+    <script src="quizjavaScript/result.js"></script>
+</body>
+
+</html>
