@@ -105,10 +105,50 @@ let maharashtra = {
             ],
             "answer": "48"
         }
+        , {
+            "question": "Which of the following is the highest (tallest) dam in Maharashtra?",
+            "options": [
+                "Koyna",
+                "Jayakwadi",
+                "Panshet",
+                "Warna"
+            ],
+            "answer": "Koyna"
+        }
+        , {
+            "question": "Who of the following was the first person from Maharashtra to be awarded the Bharat Ratna?",
+            "options": [
+                "Dhondo Keshav Karve",
+                "Dr PandurangVaman Kane",
+                "Acharya Vinoba Bhave",
+                "Bhim Rao Ambedkar"
+            ],
+            "answer": "Dhondo Keshav Karve"
+        }
+        , {
+            "question": "In which city of Maharashtra is the National Institute of Virology located?",
+            "options": [
+                "Mumbai",
+                "Pune",
+                "Nashik",
+                "Nagpur"
+            ],
+            "answer": "Pune"
+        }
+        , {
+            "question": "With how many state maharashtra has boundaries?",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "7"
+            ],
+            "answer": "6"
+        }
     ],
     "createdAt": "Wed, 01 May 2024 11:41:13 GMT",
     "timePerQuestion": "30",
-    "totalTime": "120",
+    "totalTime": "180",
     "type": "quiz"
 }
 

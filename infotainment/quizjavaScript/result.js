@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
     } else if (questionAnswersGiven <= 8) {
         id("feedback").innerHTML = "You are almost there try again";
     } else {
-        id("feedback").innerHTML = "Congratulations You made it";
+        id("feedback").innerHTML = "Congratulations. You made it";
 
     }
 });
